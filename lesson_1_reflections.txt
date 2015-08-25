@@ -1,7 +1,15 @@
-How did viewing a diff between two versions of a file help you see the bug that was introduced?
-How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
-What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google docs does?
-Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+1) How did viewing a diff between two versions of a file help you see the bug that was introduced?
+Ver la diferencia entre dos versiones de un archivo permite identificar mas rápidamente los lugares donde puede existir un error 
+2) How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+Tener acceso al historial brinda una sensación de seguridad que nos permite tomar mas riesgos y probar distintas cosas que si no funcionan siempre se puede volver hacia atras donde todo funcionaba bien. 
+
+3) What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google docs does?
+La ventaja de elegir manualmente cuando crear un commit es que uno puede decidir que cosas forman parte del commit y en que momento se hace el commit. Ademas se puede especificar un mensaje en el commit que describe que cambios se hicieron. 
+Una desventaja menor es que es posible que uno se olvide de commitear un cambio importante y luego necesite acceder al repositorio desde otra computadora donde no estara plasmado el cambio. 
+
+4) Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+Cuando se programa es muy comun que los archivos en los que se esta trabajando esten relacionados y existan dependencias entre ellos. Por lo tanto tienen que estar commiteados en un mismo commit que agrupe todos los archivos que fueron cambiados. 
+
 How can you use the commands git log and git diff to view the history of files?
 How might using version control make you more confident to make changes that could break something?
 Now that you have your workspace set up, what do you want to try using Git for?
