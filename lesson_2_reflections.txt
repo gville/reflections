@@ -1,6 +1,12 @@
-What happens when you initialize a repository? Why do you need to do it?
-How is the staging area different from the working directory and the repository? What value do you think it offers?
-How can you use the staging area to make sure you have one commit per logical change?
+1) What happens when you initialize a repository? Why do you need to do it?
+Se crea una carpeta oculta llamada ".git" donde se guarda la metadata de la historia del repositorio. 
+
+2)How is the staging area different from the working directory and the repository? What value do you think it offers?
+La staging area es una zona intermedia entre el working directory y el repositorio que permite mas control para especificar que archivos son los que se van a commitear.
+
+3) How can you use the staging area to make sure you have one commit per logical change?
+Permitiendome elegir de entre todos los archivos modificados aquellos que si intervienen en el cambio lógico para luego ser commiteados en grupo.     
+
 What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 How do the diagrams help you visualize the branch structure?
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
